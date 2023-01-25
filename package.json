@@ -1,0 +1,16 @@
+{
+    "name": "@devlikebear/vue-analog-clock",
+    "version": "0.1.0",
+    "description": "Vue Analog Clock",
+    "main": "index.ts",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/devlikebear/vue-analog-clock.git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
+    "author": "devlikebeaar",
+    "license": "MIT"
+}
