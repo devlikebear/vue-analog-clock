@@ -1,10 +1,11 @@
 # DevForest Vue Analog Clock
 
-Very simple analog clock for learning Vue component and css.
+A simple analog clock for learning Vue components and CSS.
 
 Main features:
-* Clock face can be any size what you want
-* Hands can be any size what you want
+
+* The clock face can be any size you desire
+* The hands can be any size you desire
 
 ## Install
 
@@ -13,7 +14,7 @@ npm:
 npm install devforest-vue-analog-clock
 ```
 
-## Use in Vue3
+## Use in Vue 3
 
 ```vue
 <script setup lang="ts">
