@@ -1,6 +1,6 @@
 {
     "name": "devforest-vue-analog-clock",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "description": "DevForest Vue Analog Clock",
     "type": "module",
     "main": "./dist/devforest-vue-analog-clock.umd.cjs",

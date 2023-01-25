@@ -1,2 +1,2 @@
-import DevforestVueAnalogClock from './AnalogClock.vue';
+import DevforestVueAnalogClock from './DevforestVueAnalogClock.vue';
 export { DevforestVueAnalogClock };

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { DevforestVueAnalogClock } from '../../lib/main'
 
 defineProps<{ msg: string }>()
 
@@ -7,8 +8,10 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-
+  <h1>{{ msg }}222</h1>
+  <div>
+    <DevForestVueAnalogClock :size="200" :hourHandHeight="50" :minuteHandHeight="70" :secondHandHeight="100" />
+  </div>
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
     <p>
@@ -19,9 +22,8 @@ const count = ref(0)
 
   <p>
     Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
+    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank">create-vue</a>, the official Vue + Vite
+    starter
   </p>
   <p>
     Install
